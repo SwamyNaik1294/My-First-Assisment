@@ -1,0 +1,87 @@
+h1{
+    background-color: green; color: yellow;
+}
+#head2{
+    background-color: aqua; color: black;
+}
+.head3{
+    background-color: blue; color:white;
+}
+*{
+    color:red;
+}
+h2,h3,p{
+    background-color: bisque; color: red;
+}
+body{
+    background-color: aliceblue;color: #000;
+    background-image: url("C:\\Users\\agmee\\OneDrive\\Desktop\\background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+main{
+    background-color: silver;
+    padding: 4px;
+    color: #202020;
+    grid-area: main;
+    }
+aside{
+    grid-area: aside;
+}
+h1,h2{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    }
+#headshot{
+    border: 1px solid #808080;
+    padding: 2px;
+    margin: 8px;
+    border-radius: 8px;
+    max-width: 45px;
+    }
+.experience{
+    border: inset 1px;
+    margin-bottom: 4px;
+    padding: 4px;
+    background-color: white;
+    color: #222;
+    }
+.experience .title{
+    font-weight: bold;
+    }
+footer{
+    background-color: #202020;
+    color: lightblue;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    grid-area: footer;
+    }
+#menu li{
+    display: inline;
+    padding: 8px;
+    background-color: darkgray;
+    }
+#menu li a{
+    color: white !important;
+    text-decoration: none;
+    }
+#menu li.active{
+    background-color:darkslateblue ;
+    }
+#menu{
+    float: right;
+}
+header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    grid-area: header;
+}
+header #menu{
+    margin-left: auto;
+}
